@@ -1,0 +1,14 @@
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace Firstapp.Pages
+{
+    public class IndexModel : PageModel
+    {
+        public string MyShop{ get; set; }
+   
+        public void OnGet()
+        {
+            MyShop=("Welcome To My Candy Shop");
+        }
+    }
+}
